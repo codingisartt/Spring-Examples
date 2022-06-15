@@ -31,4 +31,5 @@ public class KullaniciApi {
     public ResponseEntity<List<Kulanici>> tumunuListele(){
         return ResponseEntity.ok(kullaniciRepository.findAll());
     }
+
 }
